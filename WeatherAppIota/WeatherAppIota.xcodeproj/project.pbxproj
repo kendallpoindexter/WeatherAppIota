@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B29A82D6247E924000A90522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A82D5247E924000A90522 /* AppDelegate.swift */; };
 		B29A82D8247E924000A90522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A82D7247E924000A90522 /* SceneDelegate.swift */; };
-		B29A82DA247E924000A90522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A82D9247E924000A90522 /* ViewController.swift */; };
+		B29A82DA247E924000A90522 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A82D9247E924000A90522 /* HomeViewController.swift */; };
 		B29A82DD247E924000A90522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29A82DB247E924000A90522 /* Main.storyboard */; };
 		B29A82DF247E924200A90522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29A82DE247E924200A90522 /* Assets.xcassets */; };
 		B29A82E2247E924200A90522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29A82E0247E924200A90522 /* LaunchScreen.storyboard */; };
+		B29A82EA247E962C00A90522 /* ForcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A82E9247E962C00A90522 /* ForcastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B29A82D2247E924000A90522 /* WeatherAppIota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppIota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29A82D5247E924000A90522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29A82D7247E924000A90522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B29A82D9247E924000A90522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B29A82D9247E924000A90522 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B29A82DC247E924000A90522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29A82DE247E924200A90522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29A82E1247E924200A90522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B29A82E3247E924200A90522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29A82E9247E962C00A90522 /* ForcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				B29A82D5247E924000A90522 /* AppDelegate.swift */,
 				B29A82D7247E924000A90522 /* SceneDelegate.swift */,
-				B29A82D9247E924000A90522 /* ViewController.swift */,
+				B29A82D9247E924000A90522 /* HomeViewController.swift */,
 				B29A82DB247E924000A90522 /* Main.storyboard */,
 				B29A82DE247E924200A90522 /* Assets.xcassets */,
 				B29A82E0247E924200A90522 /* LaunchScreen.storyboard */,
 				B29A82E3247E924200A90522 /* Info.plist */,
+				B29A82E9247E962C00A90522 /* ForcastTableViewCell.swift */,
 			);
 			path = WeatherAppIota;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29A82DA247E924000A90522 /* ViewController.swift in Sources */,
+				B29A82DA247E924000A90522 /* HomeViewController.swift in Sources */,
 				B29A82D6247E924000A90522 /* AppDelegate.swift in Sources */,
+				B29A82EA247E962C00A90522 /* ForcastTableViewCell.swift in Sources */,
 				B29A82D8247E924000A90522 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
